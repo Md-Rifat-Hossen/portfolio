@@ -172,7 +172,7 @@ tr:hover td {
 }
 th {
   border: 1px solid black;
-  background-color: #850000d7;
+  background-color: green;
   color: white;
   padding: 0.5rem 0.5rem;
 }
