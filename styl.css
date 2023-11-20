@@ -164,7 +164,7 @@ tbody tr:nth-child(odd) {
   background-color: #eaecec;
 }
 tr:hover :not(th, td.not-hover, h3) {
-  background-color: #afacac;
+  background-color: ;
 }
 
 tr:hover td {
