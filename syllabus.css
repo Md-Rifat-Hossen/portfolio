@@ -42,9 +42,11 @@ header h2 {
   /*color:yellowgreen*/
 }
 /* navbar starts */
-nav {
+/*nav {
   overflow: visible;
-}
+}*/
+.link:hover{
+  background:#321c64;
 nav ul {
   list-style-type: none;
   display: flex;
