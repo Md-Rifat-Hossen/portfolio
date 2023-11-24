@@ -45,12 +45,11 @@ header h2 {
 nav {
   overflow: visible;
 }
-
 nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  background-color: #6a0000;
+  background-color: #d9bfff;
   flex-wrap: wrap;
   overflow: visible;
 }
@@ -70,20 +69,10 @@ li a {
   padding-bottom: 1.2rem;
 }
 
-
 .not-hidden {
   display: none;
 }
-.dropdown-content:hover{
-  background-color: rgb(77, 92, 230);
-}
-.dropdown-menu {
-  width: 100%;
-  background-color: #b41a1a;
-  position: absolute;
-  display: none;
-  padding: 0;
-}
+
 /* .dropdown-content{
   display: none;
 } */
@@ -126,17 +115,6 @@ li a {
 .ice-logo .ice-image{
   width: 20rem;
 }
-.chairman-details{
-  padding-top: 1em;
-}
-.welcome .message{
-  padding: 0em 2em;
-  line-height: 2rem;
-  word-spacing: 0.4em;
-}
-.welcome .message  ol{
-  padding-left: inherit;
-}
 .program {
   background-color: rgb(8, 170, 235);
   color: white;
@@ -162,19 +140,15 @@ table {
   box-sizing: content-box;
 }
 
-tbody tr:nth-child(odd) {
-  background-color: #eaecec;
-}
-tr:hover :not(th, td.not-hover, h3) {
-  background-color: ;
-}
+
+
 
 tr:hover td {
   color: black;
 }
 th {
   border: 1px solid black;
-  background-color: green;
+  background-color: #952bb9;
   color: white;
   padding: 0.5rem 0.5rem;
 }
@@ -209,8 +183,9 @@ footer {
   color: aqua;
   text-decoration: none;
 }
-.link:hover{
-  background:#321c64;
+.hi {
+  font-size: 100px;
+}
 
 @media only screen and (min-width: 600px) {
   main {
@@ -240,6 +215,9 @@ footer {
   td {
     padding: 0.5rem 1rem;
   }
+}
+.u li:hover{
+  background-color:#005e5e;
 }
 /* navbar media queries starts */
 @media only screen and (max-width: 1200px) {
