@@ -2,241 +2,408 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD RIFAT HOSSEN </title>
-
-    <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="keywords" content="jigar sable, portfolio, jigar, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/tyle.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Jigar Sable</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
-
-    <!-- css for mobile -->
-    <link rel="stylesheet" href="style.css">
-
-
-    <!-- css for desktop -->
-    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
-</head>
-<body>
     
-    <!-- navbar starts from here  -->
-    <div class="navbar">
-        <div class="nav-logo col-2">
-            <img src="https://i.postimg.cc/59npzQS7/images.png" alt="logo">
-        </div>
+</head>
+<body oncontextmenu="return false">
 
-        <div class="nav-heading col-4">
-            <h1>MD RIFAT HOSSEN</h1>
-        </div>
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
 
-        <div class="navbar-menu col-6">
-            <a href="#">Home</a>
-            <a href="#about-me-id">About Me</a>
-            <a href="#skill-id">Skill</a>
-            <a href="#contact-id">Contact Me</a>
-            <a href="blog.html"><i class="fa-solid fa-b fa-beat fa-2xl" style="color:Red;">Log</i></a>
-        </div>
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i>RIFAT</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="blog.htm"><i class="fa-solid fa-b fa-beat fa-2xl" style="color:Red;">Log</i></a>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Md Rifat <span>Hossen</span></h2>
+    <p>i am into <span class="typing-text">Junior Software Engineer </span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/md-rifat-hossen-pust" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/md-rifat-hossen" target="_blank"><i class="fab fa-github"></i></a></li>
+         <!-- <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/jigar_sable" target="_blank"><i class="fab fa-twitter"></i></a></li>-->
+          <li><a class="telegram" aria-label="Telegram" href="https://t.me/RIFAT_PUST_ICE" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <!--<li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-instagram" target="_blank"></i></a></li>-->
+        <!--  <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>-->
+        </ul>
+      </div>
     </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="https://i.postimg.cc/Hxh2NcGT/download-3.jpg" alt="">
+</div>
+</section>
+<!-- hero section ends -->
 
-    <!-- navbar ends here  -->
 
-
-
-
-    <!-- profile starts from here  -->
-    <div class="profile">
-        
-        <div class="profile-desc">
-            <h1> I am a junior software engineer </h1></br>
-            <p>Assalamu'alaikum Warahmatullah,This is MD.Rifat Hossen. Welcome to my personal page that I've designed to showcase my skills and expertise that I've accumulated over the year. </p>
-        </div>
-        
-    </div>
-    <!-- profile ends here  -->
-
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
     
+    <div class="row">
 
-
-    <!-- about me starts here  -->
-     <div class="about-me" id="about-me-id">
-        <h2>ABOUT ME</h2>
-        <hr class="dotted-hr">       
-        <div class="aboutme-image col-6">
-            <img src="https://i.postimg.cc/pLYHQBcb/1cba76d7-6e23-4487-b6f7-aef598560a89.jpg" alt="">
-        </div>
-        <div class="aboutme-desc col-6">
-            <p><i>I'm a student at Pabna University of Science and Technology. I'm doing a Bachelor of Science(Engineering) degree in Information & Communication Engineering (ICE, also known as ICT or IT). I'm a technology enthusiast. Presently I'm working on Data Structures and Algorithms, problem solving, and learn Java and Python for deep learning and machine learning.</i> </p>
-            
-            <hr class="aboutme-hr">
-              <i>
-            <p>Name: MD.RIFAT HOSSEN</p> 
-            <hr class="aboutme-hr">
-            <p>Address: Fulbaria, Mymensingh,Bangladesh.</p>
-            <hr class="aboutme-hr">
-            <p>Email: <a href="rifat.pust.ice14@gmail.com" >rifat.pust.ice14@gmail.com</a> </p>
-            <hr class="aboutme-hr">
-            <p>Phone: <a href="+8801729-133240">+8801729-133240</a> </p>
-            <hr class="aboutme-hr">
-            <p>Website: <a href="https://md-rifat-hossen.github.io/portfolio/" target="blank">www.rifat.com</a> </p>
-              <i>
-            <hr class="aboutme-hr">
-           
-            <p>
-                <a href="https://drive.google.com/file/d/1OYUyTofJy_w8hDtdPRPA99ixJ5JdgdSS/view?usp=drivesdk" target="blank" download="clik">
-                    <button class="cv-button">Download CV</button>
-                </a>
-            </p>
-
-        </div>
-
+    <div class="image">
+        <img draggable="false" class="tilt" src="" alt="">
     </div>
-
-    <!-- about me ends here  -->
-
-
-
-
-    <!-- professional experience start here  -->
-
-   
-
-        <div class="education col-4">
-            
-            <div class="card">
-                <div class="card-icon">
-                    <img class="rounded-img" src="https://i.postimg.cc/W34qczqz/work.png" alt="work icon">
-                </div>
-                <div class="card-title">
-                    <h2>EDUCATION</h2>
-                </div>
-
-                <div class="card-desc">
-                    <ol>
-                        <li>
-                            <strong>Complete HSC</strong> <br>
-                            2019-2020<br>
-                            Alamgir Monsur (mintu) Memorial College. <br>
-                            Sadar,Mymensigh.<br>
-                            <a href="https://ammc.edu.bd/" target="blank">https://ammc.edu.bd/</a> <br>
-                         </li>
-                         <hr>
-                         <li>
-                            <strong>B.Sc.(Engineering) in Information & Commonication Engineering.</strong> <br>
-                            2022-Running</br>
-                            Pabna University of Science and Technology. <br>
-                            Rajapur,Pabna,Bangladesh. <br>
-                            <a href="https://www.pust.ac.bd/" target="blank">https://www.pust.ac.bd/</a> <br>
-                            
-                         </li>
-                        
-                    </ol>
-                </div>
-        </div>
-        </div>
-
-        <div class="skills col-4" id="skill-id">
-            <div class="card">
-                <div class="card-icon">
-                    <img class="rounded-img" src="https://i.postimg.cc/wM8zcbzz/skill.png" alt="work icon">
-                </div>
-                <div class="card-title">
-                    <h2>SKILLS</h2>
-                </div>
-
-                <div class="card-desc">
-                    <div class="skills-container">
-                        <ul>
-                            <li class="html" >HTML</li>
-                            <li class="css">CSS</li>
-                            
-                            <li class="bootstrap">Bootstrap</li>
-                            <li class="js">JavaSCript</li>
-                            <li class="jquery">C/C++</li>                           			  <li class="DSA"> Data Structure and 								Algorithms</i>
-                            <li class="node">JAVA</li>
-                            <li class="express">PYTHON</li>
-                            <li class="git">GitHub</li>
-                            <li class="react">Django</li> 
-                          	<li class="sql">mySQL</li>
-                        </ul>
-                    </div>
-                </div>
-        </div> 
-    </div>
-
-    </div>
-
-    <!-- professional experience ends here  -->
-
-    <!-- achievement-contact starts from here  -->
-
-    <div class="achievemnet-contact">
-        <!----
-        <div class="achievement col-4">
-            <h2>ACHIEVEMENTS</h2>
-            <hr class="dotted-hr">
-            <p>1. 100% Tuition Waiver: Based on excellent academic result in Tampere university, Finland</p>
-            <p>2. Public Bank Scholarship: 40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p>
-            <p>3. Silver Button from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
-            <p>4. IELTS 7 (Speaking-8.5, Listening-8, Writing-6, Reading-6) </p>
-
-        </div>-->
-        <div class="contact col-4" id="contact-id">
-            <h2>CONTACT ME</h2>
-            <hr class="dotted-hr">
-
-            <form action="https://formspree.io/f/mnqkybwn" method="post" enctype="multipart/form-data">
-                <p><input type="text" placeholder="Your Name" name="name"></p>
-                <p><input type="email" placeholder="Your Email" name="email"></p>
-                
-            
-                
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
-                <button type="submit">SEND</button>
-                <button type="reset">RESET</button>
-            </form>
-        </div>
-
-        <div class="contact-links col-4">
-            <h2>More ways to Contact</h2>
-            <hr class="dotted-hr">
-            <div class="media-buttons">
-                <button class="btn" onclick="window.open('https://www.linkedin.com/in/md-rifat-hossen-pust/')" class="request-callback"><i class="fa-brands fa-linkedin" style="color: #c4302b;" aria-hidden="true"></i></button>
-               
-                <button class="btn" onclick="window.open('https://www.facebook.com/rifat.pust')" class="btn request-callback"><i class="fa-brands fa-facebook" style="color:  #3b5998;" aria-hidden="true"></i></button>
-              <!----
-                <button class="btn" onclick="window.open('http://www.studywithanis.com/')" class="btn request-callback"> <span style="font-size: 1.7rem;">&#127760;</span> </i></button>
-              -->
-                <button class="btn" onclick="window.open('https://join.skype.com/invite/rQddOYWEjsV4/')" class="btn request-callback"><i class="fa-brands fa-skype" style="color:  #3b5998;" aria-hidden="true"></i></button>
-              
-                <button class="btn" onclick="window.open('https://github.com/Md-Rifat-Hossen')" class="btn request-callback"><i class="fa-brands fa-github" aria-hidden="true" style="color: #000000;"></i></button>
+    <div class="content">
+        <h3>ٱلسَّلَامُ عَلَيْكُمْ</h3>
+        <span class="tag">Junior Software Engineer </span>
+        
+        <p>I'm a student at Pabna University of Science and Technology. I'm doing a Bachelor of Science(Engineering) degree in Information & Communication Engineering (ICE, also known as ICT or IT). I'm a technology enthusiast. Presently I'm working on Data Structures and Algorithms, problem solving, and learn Java and Python for deep learning and machine learning. </p>
+        
+        <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+            <div class="box">
+              <p><span> email : </span> rifat.pust.ice14@gmail.com</p>
+              <p><span> place : </span> Fulbaria, Mymensingh  - 2216</p>
             </div>
         </div>
-    </div>
-
-    <!-- achievement-contact ends here  -->
-
-
-    <!-- footer starts from here  -->
-
-    <div class="footer">
         
-        <div class="footer-menu col-6">
-            <a href="#">Home</a>
-            <a href="#about-me-id">About Me</a>
-            <a href="#skill-id">Skill</a>
-            <a href="#contact-id">Contact Me</a>
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1OYUyTofJy_w8hDtdPRPA99ixJ5JdgdSS/view?usp=drivesdk" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
         </div>
-    
-        <div class="footer-desc col-6">
-            &copy; RIFAT 2023. Developed with <span style="color: red; font-size: 1.5rem;">💚</span> by RIFAT.
-        </div>
-        <p class="up">
-            LastUpdate:15-03-2023
-        </p>
+
     </div>
-    <!-- footer ends here  -->
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <!-- <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>AdobeXD</span>
+              </div>
+            </div> -->
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="https://i.postimg.cc/SN1LspXP/download.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Engineering in Information and Communication Engineering </h3>
+        <p>Pabna University of Science and Technology | Pabna,Bangladesh </p>
+        <h4>Session : 2021-2022 | Running </h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="https://i.postimg.cc/k5bLss3n/download-1.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>HSC Science | Informatic Practices</h3>
+      <p>Alamgir Monsur Memorial College  | Mymensingh </p>
+      <h4>Session : 2019-2021 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+    <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+</div>
+
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Self Employed</h2>
+        </div>
+        <div class="desc">
+            <h3>Junior Software Engineer </h3>
+            <p>Oct 2021 - present</p>
+        </div>
+      </div>
+    </div>
+<!---
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Mapstreak Flyseas</h2>
+        </div>
+        <div class="desc">
+            <h3>Web Developer | Internship</h3>
+            <p>June 2021 - Dec 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>The Spark Foundation</h2>
+        </div>
+        <div class="desc">
+            <h3>Website Developer | Internship</h3>
+            <p>May 2021 - June 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>The Spark Foundation</h2>
+        </div>
+        <div class="desc">
+            <h3>Mobile Application Developer | Internship</h3>
+            <p>April 2021 - May 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Frshr Technologies</h2>
+        </div>
+        <div class="desc">
+            <h3>Wordpress Developer | Internship</h3>
+            <p>April 2021 - April 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>WonderingBlog</h2>
+        </div>
+        <div class="desc">
+            <h3>Web Development & SEO | Internship</h3>
+            <p>March 2021 - April 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+</div>-->
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Rifat's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+8801729-133240</p>
+          <p> <i class="fas fa-envelope"></i>rifat.pust.ice14@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Fulbaria,Mymensingh-2216</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/md-rifat-hossen-pust" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/md-rifat-hossen" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:rifat.pust.ice14@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              
+              <a href="https://t.me/RIFAT_PUST_ICE" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/md-rifat-hossen-pust">Md Rifag Hossen</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/cript.js"></script>
+
 </body>
 </html>
