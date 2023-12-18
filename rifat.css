@@ -63,6 +63,9 @@ header h2 {
   color: skyblue;
   /*color:yellowgreen*/
 }
+a{
+  text-decoration:none;
+}
 /* navbar starts 
 nav {
   overflow: visible;
